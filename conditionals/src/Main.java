@@ -8,9 +8,11 @@ public class Main {
             System.out.println("Sayı 20'den küçüktür");
         } else if (sayi == 20) {
             System.out.println("Sayı 20'ye eşittir");
-        }else {
+        } else {
             System.out.println("Sayı 20'den büyüktür");
         }
+
+
 
 
     }
