@@ -8,7 +8,9 @@ public class Main {
 		String mesaj = "Öğrenci Sayısı";
 
 		System.out.println(mesaj + ogrenciSayisi);
-
+		
+		
+		
 	}
 
 }
