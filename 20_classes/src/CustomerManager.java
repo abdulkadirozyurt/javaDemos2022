@@ -2,14 +2,14 @@
 public class CustomerManager {
 
     public void Add() {
-        System.out.println("Müşteri Eklendi");
+        System.out.println("Musteri Eklendi");
     }
 
     public void Remove() {
-        System.out.println("Müşteri Silindi");
+        System.out.println("Musteri Silindi");
     }
 
     public void Update() {
-        System.out.println("Müşteri güncellendi");
+        System.out.println("Musteri guncellendi");
     }
 }
