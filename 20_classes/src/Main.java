@@ -26,15 +26,13 @@ public class Main {
         
         
         // iki farklı dizi tanımlama şekli, ikisi de aynı anlama geliyor.
-        
+        // reference type
         int[] sayilar1 = new int[]{1, 2, 3};
         int[] sayilar2 = {4, 5, 6};
         sayilar2 = sayilar1;
         sayilar1[0] = 10;
         System.out.println(sayilar2[0]);
-        for (int sayi : sayilar2) {
-            System.out.println(sayi);
-        }
+        
     }
 
 
