@@ -4,7 +4,6 @@ INDEX VERSION 1.131+C:\Users\abdulkadir\Desktop\javaDemos2022\.metadata\.plugins
 1548171784.index
 1472366317.index
 3948357543.index
-3011209426.index
 3449116481.index
 739602875.index
 268475887.index
