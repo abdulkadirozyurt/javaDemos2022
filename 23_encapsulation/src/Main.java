@@ -5,22 +5,18 @@ public class Main {
 
 
         Product product1 = new Product();
-        product1.id = 1;
-        product1.name = "Laptop";
-        product1.description = "Asus Laptop";
-        product1.price = 5000;
-        product1.stockAmount = 3;
-        product1.renk = "siyah";
+        product1.setId(1);
+        product1.setName("Laptop");
+        product1.setDescription("Asus Laptop");
+        product1.setPrice(5000);
+        product1.setStockAmount(3);
+        
 
 
         ProductManager productManager = new ProductManager();
         productManager.Add(product1);
 
-        productManager.Add2(1, "laptop", "Asus", 5, 5000);
-        productManager.Add2(1, "laptop", "Asus", 5, 5000);
-        productManager.Add2(1, "laptop", "Asus", 5, 5000);
-        productManager.Add2(1, "laptop", "Asus", 5, 5000);
-        productManager.Add2(1, "laptop", "Asus", 5, 5000);
+        System.out.println(product1.getCode());
 
     }
 
