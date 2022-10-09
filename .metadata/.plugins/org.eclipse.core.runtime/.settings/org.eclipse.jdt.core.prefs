@@ -411,3 +411,4 @@ org.eclipse.jdt.core.formatter.wrap_before_shift_operator=false
 org.eclipse.jdt.core.formatter.wrap_before_string_concatenation=false
 org.eclipse.jdt.core.formatter.wrap_before_switch_case_arrow_operator=false
 org.eclipse.jdt.core.formatter.wrap_outer_expressions_when_nested=false
+org.eclipse.jdt.core.timeoutForParameterNameFromAttachedJavadoc=50
