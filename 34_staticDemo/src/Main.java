@@ -10,6 +10,9 @@ public class Main {
         
         ProductManager productManager = new ProductManager();
         productManager.add(product1);
+        
+        DatabaseHelper.Crud.delete();
+        DatabaseHelper.Connection.createConnection();
 
     }
 
